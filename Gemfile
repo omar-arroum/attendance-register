@@ -25,6 +25,7 @@ end
 gem 'jquery-rails'
 
 group :development do
+  gem 'rails-erd'
   gem  'annotate'
   gem 'rspec-rails'
 end

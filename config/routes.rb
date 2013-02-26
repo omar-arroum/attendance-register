@@ -1,4 +1,19 @@
 Attendance::Application.routes.draw do
+  resources :registers
+
+
+  resources :events
+
+
+  resources :module_classes
+
+
+  resources :teacher_types
+
+
+  resources :teachers
+
+
   resources :students
 
 
